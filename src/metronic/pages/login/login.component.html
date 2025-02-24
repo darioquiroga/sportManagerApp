@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="h-full" data-theme="true" data-theme-mode="ligth" dir="ltr" lang="en">
+ <head><base href="../../../../">
+  <title>
+   :: Sport Manager ::
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="follow, index" name="robots"/>
+
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <meta content="Sport Manager" name="description"/>
+
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Sport Manager" name="twitter:title"/>
+  <meta content="Sport Manager" name="twitter:description"/>
+  <meta content="assets/media/app/og-image.png" name="twitter:image"/>
+
+  <meta content="en_US" property="og:locale"/>
+  <meta content="website" property="og:type"/>
+  <meta content="@keenthemes" property="og:site_name"/>
+  <meta content="Sport Manager" property="og:title"/>
+  <meta content="Sport Manager" property="og:description"/>
+  <meta content="assets/media/app/og-image.png" property="og:image"/>
+  <link href="assets/media/app/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="assets/media/app/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="assets/media/app/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="assets/media/app/favicon.ico" rel="shortcut icon"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+ </head>
+ <body class="antialiased flex h-full text-base text-gray-700 dark:bg-coal-500">
+
+  <!--<img [src]="'../../../assets/media/images/login/' + imagenPortada" alt="Imagen de Portada">-->
+  <div class="flex items-center justify-center grow bg-center bg-no-repeat page-bg" [ngStyle]="{'background-image': 'url(' + backgroundImageUrl + ')'}">
+   <div class="card max-w-[370px] w-full">
+    <form action="#" class="card-body flex flex-col gap-5 p-10" id="sign_in_form" method="get">
+     <div class="text-center mb-2.5">
+
+      <div class="text-center">
+        <img  src="assets/media/images/login/logo.png" alt="Logo" class="mx-auto d-block"   />
+        <!--<h1 class="h4 text-gray-900 mb-4">{{appNombre }}</h1>-->
+        <p class="text-gray-700">
+          {{appDescripcion}}
+        </p>
+     </div>
+
+
+     </div>
+     <!--
+
+     <div class="grid grid-cols-2 gap-2.5">
+      <a class="btn btn-light btn-sm justify-center" href="#">
+       <img alt="" class="size-3.5 shrink-0" src="assets/media/brand-logos/google.svg"/>
+       Use Google
+      </a>
+      <a class="btn btn-light btn-sm justify-center" href="#">
+       <img alt="" class="size-3.5 shrink-0 dark:hidden" src="assets/media/brand-logos/apple-black.svg"/>
+       <img alt="" class="size-3.5 shrink-0 light:hidden" src="assets/media/brand-logos/apple-white.svg"/>
+       Use Apple
+      </a>
+     </div>
+     -->
+
+     <div class="flex flex-col gap-1">
+      <label class="form-label font-normal text-gray-900">
+       Usuario:
+      </label>
+      <input class="input" placeholder="0000000" type="text" value=""/>
+     </div>
+     <div class="flex flex-col gap-1">
+      <div class="flex items-center justify-between gap-1">
+       <label class="form-label font-normal text-gray-900">
+        Clave:
+       </label>
+       <a class="text-2sm link shrink-0" href="html/demo2/authentication/classic/reset-password/enter-email.html">
+        ¿Olvido su clave?
+       </a>
+      </div>
+
+     <div class="input" data-toggle-password="true">
+      <input id="password" name="user_password" placeholder="Ingrese la clave" type="password" value=""/>
+      <button class="btn btn-icon" id="togglePassword" type="button">
+        <i class="ki-filled ki-eye text-gray-500 hidden" name="eyeOpen"  id="eyeOpen"></i>
+        <i class="ki-filled ki-eye-slash text-gray-500 "  name="eyeOpen" id="eyeClosed"></i>
+      </button>
+    </div>
+  </div>
+
+     <label class="checkbox-group">
+      <input class="checkbox checkbox-sm" name="check" type="checkbox" value="1"/>
+      <span class="checkbox-label">
+       Recordar credenciales
+      </span>
+     </label>
+     <button class="btn btn-primary flex justify-center grow">
+      Sign In
+     </button>
+     <div class="flex items-center justify-center font-medium">
+      <span class="text-2sm text-gray-700 me-1.5">
+       ¿No tienes una cuenta?
+      </span>
+
+      <a class="text-2sm link" href="html/demo2/authentication/classic/sign-up.html">
+       Solicitar acceso
+      </a>
+     </div>
+    </form>
+
+
+   </div>
+
+
+
+
+  </div>
+
+  <!-- End of Page -->
+  <!-- Scripts
+  <script src="assets/js/core.bundle.js">
+  </script>
+  <script src="assets/vendors/apexcharts/apexcharts.min.js">
+  </script>-->
+  <!-- End of Scripts -->
+ </body>
+</html>
